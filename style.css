@@ -1,0 +1,114 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a40;
+    color: #f8f8f2;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #3d3d5c;
+    padding: 20px;
+    text-align: center;
+    color: #f1e05a;
+  }
+  
+  h1 {
+    color: #f1e05a;
+    text-transform: uppercase;
+    font-size: 3rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #f8f8f2;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  nav ul li a:hover {
+    color: #f1e05a;
+  }
+  
+  section {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  #sobre img.center {
+    display: block;
+    margin: 20px auto;
+    max-width: 80%;
+    height: auto;
+    border-radius: 15px;
+    border: 3px solid #f1e05a;
+  }
+  
+  #personagens ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #personagens ul li {
+    background-color: #4b4b82;
+    color: #f8f8f2;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+  }
+  
+  #ingressos form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #ingressos label, #ingressos select, #ingressos button {
+    margin: 10px 0;
+    color: #f8f8f2;
+  }
+  
+  #ingressos select {
+    background-color: #4b4b82;
+    border: none;
+    padding: 10px;
+    color: #f8f8f2;
+    border-radius: 5px;
+  }
+  
+  #ingressos button {
+    padding: 10px 20px;
+    background-color: #3d3d5c;
+    color: #f1e05a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  #ingressos button:hover {
+    background-color: #f1e05a;
+    color: #1a1a40;
+  }
+  
+  footer {
+    background-color: #3d3d5c;
+    color: #f1e05a;
+    padding: 20px;
+    text-align: center;
+  }
