@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reexibição de Coraline</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Reexibição de Coraline</h1>
+    <nav>
+      <ul>
+        <li><a href="#sobre">Sobre o Filme</a></li>
+        <li><a href="#personagens">Personagens Favoritos</a></li>
+        <li><a href="#ingressos">Ingressos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="sobre">
+    <h2>Sobre Coraline</h2>
+    <p>Coraline Jones é uma jovem curiosa que se muda para uma casa antiga, onde encontra uma porta secreta que a leva para um mundo paralelo, que parece uma versão perfeita de sua vida, mas com segredos sombrios.</p>
+    <img src="https://th.bing.com/th/id/R.328dd6fb60cb28504db0ae782c02f9e4?rik=BlAZewXGxMHsow&pid=ImgRaw&r=0" alt="Coraline" class="center">
+  </section>
+
+  <section id="personagens">
+    <h2>Personagens Favoritos</h2>
+    <ul>
+      <li>Coraline Jones</li>
+      <li>Outros Pais (Mãe e Pai Alternativos)</li>
+      <li>Wybie Lovat</li>
+      <li>Sr. Bobinsky</li>
+      <li>Sra. Spink e Sra. Forcible</li>
+      <li>O Gato</li>
+    </ul>
+  </section>
+
+  <section id="ingressos">
+    <h2>Compre seus Ingressos</h2>
+    <p>Garanta seu lugar na reexibição de Coraline! Escolha seu cinema e sessão para adquirir seus ingressos:</p>
+    <form action="/comprar-ingresso" method="POST">
+      <label for="cinema">Selecione o cinema:</label>
+      <select id="cinema" name="cinema">
+        <option value="cinema1">Cinema 1 - Centro</option>
+        <option value="cinema2">Cinema 2 - Shopping</option>
+        <option value="cinema3">Cinema 3 - Bairro</option>
+      </select>
+
+      <label for="sessao">Selecione a sessão:</label>
+      <select id="sessao" name="sessao">
+        <option value="14h">14:00</option>
+        <option value="16h">16:00</option>
+        <option value="18h">18:00</option>
+        <option value="20h">20:00</option>
+      </select>
+
+      <button type="submit">Comprar Ingresso</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Reexibição de Coraline. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
